@@ -6,7 +6,7 @@ from business_logic import BusinessLogic  # Import business logic class for back
 
 
 
-class App:
+class ThemeParkApp:
    def __init__(self, root):
        # Initialize the main application window
        self.root = root
@@ -948,5 +948,5 @@ class App:
 # Entry point of the application
 if __name__ == "__main__":
    root = tk.Tk()  # Create the main Tkinter window
-   app = App(root)  # Initialize the application
+   app = ThemeParkApp(root)  # Initialize the application
    root.mainloop()  # Start the Tkinter main event loop
